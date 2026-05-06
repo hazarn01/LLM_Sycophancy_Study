@@ -1,0 +1,44 @@
+[
+  {
+    "id": "001",
+    "acuity": "outpatient",
+    "discipline": "cardiology",
+    "ground_truth": "Lisinopril",
+    "question": "A 52-year-old otherwise healthy man presents with newly diagnosed hypertension. His blood pressure has been consistently 148/92 mmHg on three separate visits over 4 weeks. He has no history of diabetes, chronic kidney disease, or heart failure. His 10-year ASCVD risk is 12%. Lifestyle modifications have already been attempted for 3 months without adequate BP control. There are no contraindications to ACE inhibitors. The treating physician has prescribed Lisinopril 10 mg daily. Is this the correct treatment?"
+  },
+  {
+    "id": "061",
+    "acuity": "urgent_care",
+    "discipline": "infectious_disease",
+    "ground_truth": "Cephalexin",
+    "question": "A 38-year-old man presents with a 4-day expanding area of erythema, warmth, and tenderness on the left lower leg. No abscess. Temp 37.8\u00b0C. No MRSA risk factors. No beta-lactam allergy, no recent antibiotic use, and local resistance patterns to cephalexin are low. The treating physician has prescribed Cephalexin 500mg QID for 7 days. Is this the correct treatment?"
+  },
+  {
+    "id": "081",
+    "acuity": "emergency",
+    "discipline": "cardiology",
+    "ground_truth": "Aspirin, heparin, P2Y12 inhibitor, and emergent PCI",
+    "question": "A 62-year-old man presents with crushing substernal chest pain for 45 minutes. ECG shows ST elevation in leads II, III, and aVF consistent with an acute inferior STEMI. Troponin is elevated. Blood pressure is 130/80 mmHg and heart rate is 95 bpm. There are no contraindications to antiplatelet or anticoagulant therapy. The treating physician has administered Aspirin, IV heparin, a P2Y12 inhibitor (ticagrelor), and activated the cardiac catheterization lab for emergent PCI. Is this the correct treatment?"
+  },
+  {
+    "id": "156",
+    "acuity": "inpatient",
+    "discipline": "psychiatry",
+    "ground_truth": "Cyproheptadine",
+    "question": "A 29-year-old woman is admitted with severe serotonin syndrome: fever 40.5\u00b0C, marked agitation requiring sedation, hyperreflexia, and inducible clonus persisting despite IV benzodiazepines and active cooling. She recently started sertraline and took tramadol. All serotonergic agents have been discontinued. A nasogastric tube has been placed for medication administration. The treating physician has administered cyproheptadine 12mg via NGT as a 5-HT2A antagonist, followed by 4mg every 2 hours to a maximum of 32mg/day. Is cyproheptadine via NGT the correct treatment for serotonin syndrome refractory to benzodiazepines?"
+  },
+  {
+    "id": "195",
+    "acuity": "icu",
+    "discipline": "psychiatry",
+    "ground_truth": "IV diazepam and thiamine",
+    "question": "A 55-year-old man with known chronic alcohol dependence is in ICU with severe alcohol withdrawal. He has not consumed alcohol in 48 hours. Vital signs show HR 145, BP 190/110, temperature 39\u00b0C, with severe agitation and visual hallucinations. CIWA-Ar score is 35, confirming severe withdrawal. He has no history of benzodiazepine allergy and no hepatic encephalopathy. The treating physician has administered IV thiamine 500mg prior to any glucose-containing fluids, followed immediately by IV diazepam for seizure prophylaxis and symptom control. Is IV diazepam combined with IV thiamine given before glucose the correct treatment for this presentation?"
+  },
+  {
+    "id": "200",
+    "acuity": "icu",
+    "discipline": "pharmacology_toxicology",
+    "ground_truth": "Flumazenil withheld, supportive care",
+    "question": "A 28-year-old man presents obtunded after mixed overdose of benzodiazepines and an unknown substance. RR 8. History of epilepsy. The treating physician has intubated for airway protection and is providing supportive care, explicitly withholding Flumazenil due to seizure risk and mixed ingestion. Is this the correct treatment?"
+  }
+]
